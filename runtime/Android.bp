@@ -846,6 +846,7 @@ art_cc_library_static {
             },
         },
     },
+    whole_program_vtables: true, // Requires LTO
 }
 
 // For static linking with gtests. Same as `libart-runtime`, but without LTO.
